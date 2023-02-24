@@ -1,0 +1,76 @@
+
+aside{
+    display: flex;
+    justify-content:first baseline;
+    align-items:flex-end;
+    color: black;
+}
+
+h4{
+color: rgb(11, 11, 11);
+}
+::-webkit-media-controls-panel {
+    background-color: #57585424;
+}
+
+body{   
+    color: rgb(18, 17, 17);
+    background-image: url("Image/crosses.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur();
+    background-attachment: fixed;
+    }
+figure{
+    margin: 0;
+}
+
+a:hover{background-color: white;}
+a:active{background-color: red;}
+
+
+
+footer{
+display:flexbox;
+justify-content:center;
+border: 1px solid black;
+background-color: blanchedalmond;
+color: black;
+}
+ 
+
+
+.naving{
+background-color: rgba(246, 240, 240, 0.026);
+border: 1px solid white;
+
+}
+
+*{
+    padding:2;
+    margin:0;
+}
+
+nav{
+    width:100%;
+    height:100%;
+    background-color: black;
+}
+ul{
+
+
+}
+ul il{
+
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    
+}
+ul il a{
+    text-decoration: none;
+    font-size: 14px;
+    padding:0 20px;
+    display: block;
+    
+}
